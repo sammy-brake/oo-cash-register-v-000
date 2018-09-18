@@ -12,7 +12,7 @@ class CashRegister
    last_transaction = price * quantity 
    
     @total += price * quantity
-    
+    @total 
  
   end 
   
