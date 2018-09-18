@@ -5,14 +5,14 @@ class CashRegister
   
   @@items = []
   
-  def initialize(total = 0)
+  def discount(discount = 0)
+    
     @total = total 
     @discount =discount 
     @items = []
   end 
   
-  def discount(total=0, discount=0)
-  @discount = discount 
+
  
  
   end 
