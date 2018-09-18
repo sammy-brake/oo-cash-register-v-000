@@ -30,7 +30,7 @@ if @discount > 0
       @total = @total - (@total * (@discount))
       puts "After the discount, the total comes to #{@total}."
     else 
-      puts "No discount!"
+      puts "There is no discount to apply."
     end 
   end 
   
