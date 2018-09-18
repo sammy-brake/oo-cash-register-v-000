@@ -11,7 +11,7 @@ class CashRegister
     @items = []
   end 
   
-  def discount(discount=0)
+  def discount(total, discount=0)
   @discount = discount 
  
  
