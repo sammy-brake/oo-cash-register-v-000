@@ -20,7 +20,7 @@ class CashRegister
   def add_item(title, price, quantity = 1)
       @last_transaction = price * quantity 
     @total += price * quantity
-    quantity.times {@names << title}
+    quantity.times {@items << title}
  
   end 
   
