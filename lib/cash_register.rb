@@ -10,7 +10,7 @@ class CashRegister
   
 
     
-    @total = total 
+    @total = 0 
     @discount =discount 
     @items = []
   end 
